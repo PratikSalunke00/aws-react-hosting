@@ -32,4 +32,4 @@ jobs:
           aws-region: ap-south-1
 
       - name: Deploy to S3
-        run: aws s3 sync ./dist s3://aws-react-app-aws --delete
+        run: aws s3 sync ./dist s3://aws-s3-react-s3 --delete
